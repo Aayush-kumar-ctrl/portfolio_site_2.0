@@ -1,7 +1,7 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 body {
@@ -16,8 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background: #222;
-    color: #fff;
+    background: #161616;
+    color: #fdfdfd;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -53,11 +53,12 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-    padding: 80px 5%;
+    padding: 60px 5%;
 }
 
 /* Home Section */
 .home-section {
+    background: #e5a3a3;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,20 +68,26 @@ section {
 
 .home-image img {
     width: 300px; /* adjust as needed */
-    border-radius: 50%; /* makes it circular */
+    border-radius: 10%; /* makes it circular */
 }
 
 .home-section h1 {
+    background: #a4f292;
     font-size: 3rem;
     margin-bottom: 1rem;
     animation: slideIn 1.5s ease-out;
+    border-radius: 10%; /* makes it circular */
+
 }
 .home-section p {
+    background: #a3c2e5;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    border-radius: 10%; /* makes it circular */
+
 }
 .btn {
-    background: #ff6347;
+    background: #fb4c2d;
     color: #fff;
     padding: 0.8rem 2rem;
     text-decoration: none;
@@ -88,7 +95,7 @@ section {
     transition: 0.3s;
 }
 .btn:hover {
-    background: #ff4500;
+    background: #36a184;
 }
 
 /* About Section */
@@ -98,12 +105,14 @@ section {
 
 /* Projects */
 .project-cards {
+    background: #f9fdfc;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 3rem;
 }
 .project-card {
-    background: #f4f4f4;
+    background: #efe5d6;
+    margin: 1.5em;
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
@@ -111,29 +120,32 @@ section {
 }
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.878);
+
 }
 .project-card a {
     display: inline-block;
     margin-top: 1rem;
     text-decoration: none;
     color: #fff;
-    background: #222;
+    background: #fb4c2d;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
-.project-card a:hover { background: #ff6347; }
+.project-card a:hover { background: #36a184; }
 
 /* Clients */
 .client-logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 12rem;
 }
 .client-logos img {
     width: 120px;
-    filter: grayscale(100%);
+    filter: grayscale(10%);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.878);
     transition: filter 0.3s, transform 0.3s;
 }
 .client-logos img:hover {
@@ -149,7 +161,7 @@ section {
     margin-top: 2rem;
 }
 .pricing-card {
-    background: #f4f4f4;
+    background: #efe5d6;
     padding: 2rem;
     text-align: center;
     border-radius: 8px;
