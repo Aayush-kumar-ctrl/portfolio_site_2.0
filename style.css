@@ -105,7 +105,7 @@ section {
 
 /* Projects */
 .project-cards {
-    background: #f9fdfc;
+    background: #98c1e3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
@@ -169,7 +169,7 @@ section {
 }
 .pricing-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 .pricing-card h4 { margin: 1rem 0; }
 .pricing-card ul { list-style: none; margin: 1rem 0; padding: 0; }
@@ -186,22 +186,22 @@ section {
 .contact-section input,
 .contact-section textarea {
     padding: 0.8rem;
-    border: 1px solid #ccc;
+    border: 1px solid #101010;
     border-radius: 5px;
 }
 .contact-section button {
-    background: #ff6347;
+    background: #fb4c2d;
     color: #fff;
     padding: 0.8rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-.contact-section button:hover { background: #ff4500; }
+.contact-section button:hover { background: #36a184;; }
 
 /* Footer */
 footer {
-    background: #222;
+    background: #100f0f;
     color: #fff;
     text-align: center;
     padding: 1rem;
