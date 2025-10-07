@@ -118,6 +118,18 @@ section {
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+.client-card {
+    background: #efe5d6;
+    margin: 1em;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.client-card:hover{transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.878);
+}
+
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.878);
